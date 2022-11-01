@@ -551,9 +551,12 @@ ul {
 
 .modal-btn {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 8px;
   margin-right: 8px;
   margin-left: auto;
+  padding: 0;
 
   width: 30px;
   height: 30px;
@@ -561,17 +564,18 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  align-items: center;
   cursor: pointer;
 }
 
 .icon-close-modal {
   padding: 6px;
-  width: 18px;
-  height: 18px;
-
   fill: #000000;
 }
+
+.icon-close-modal:hover {
+  fill: var(--accent-color);
+}
+
 /* ---------------------------Друга сторінка --------------------*/
 
 /* ---------------------------Портфоліо --------------------*/

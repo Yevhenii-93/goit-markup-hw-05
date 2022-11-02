@@ -86,11 +86,32 @@ ul {
   margin-left: 93px;
 }
 
+.nav-item {
+  position: relative;
+}
+
 .nav-link,
 .contacts-link {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.activ {
+  color: var(--accent-color);
+}
+
+.activ::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 4px;
+
+  background-color: var(--accent-color);
+  border-radius: 2px;
 }
 
 .web {

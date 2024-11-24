@@ -611,10 +611,7 @@ img {
 .modal-form {
 }
 
-.modal-form-filed:last-child {
-  display: flex;
-  gap: 8px;
-  align-items: center;
+.modal-form-field:last-child {
   margin-bottom: 16px;
 }
 
@@ -681,7 +678,6 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 .modal-rules {
-  margin-top: 16px;
   margin-bottom: 24px;
 }
 
@@ -698,10 +694,8 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.rules-checkbox:checked + .checkmark {
-  fill: #f4f4fd;
-}
-.rules-checkbox:checked + span {
+
+.user-privacy:checked + .modal-label > .checkmark {
   background-color: #404bbf;
 }
 .icon-rules-checkbox {

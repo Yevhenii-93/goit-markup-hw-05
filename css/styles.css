@@ -611,10 +611,6 @@ img {
 .modal-form {
 }
 
-.modal-form-field:last-child {
-  margin-bottom: 16px;
-}
-
 .modal-form-field:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -678,6 +674,7 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 .modal-rules {
+  margin-top: 16px;
   margin-bottom: 24px;
 }
 
@@ -698,7 +695,12 @@ img {
 .user-privacy:checked + .modal-label > .checkmark {
   background-color: #404bbf;
 }
+
 .icon-rules-checkbox {
+  fill: transparent;
+}
+
+.user-privacy:checked + .modal-label > .checkmark > .icon-rules-checkbox {
   fill: #f4f4fd;
 }
 
@@ -717,8 +719,7 @@ img {
   margin-bottom: 24px;
 }
 .modal-form-btn {
-  justify-content: center;
-  align-items: center;
+  display: block;
   padding: 16px 32px;
 }
 /* #endregion */

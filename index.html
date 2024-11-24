@@ -525,7 +525,7 @@
     <!--Modal windows-->
     <div class="backdrop">
       <div class="modal">
-        <button class="modal-btn" type="button">
+        <button class="modal-btn-close" type="button">
           <svg class="btn-icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -580,12 +580,24 @@
             <label class="modal-label" for="user-comment">Comment</label>
             <div class="modal-form-wrap">
               <textarea
-                class="modal-comment"
+                class="modal-comment modal-input"
                 name="user-comment"
                 id="user-comment"
                 placeholder="Text input"
               ></textarea>
             </div>
+          </div>
+          <div class="modal-form-filed">
+            <input
+              class="rules-checkbox"
+              type="checkbox"
+              name="rules-checkbox"
+              id="rules-checkbox"
+            />
+            <span class="checkmark"></span>
+            <svg class="icon-rules-checkbox" width="10" height="8">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
           </div>
         </form>
       </div>

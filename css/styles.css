@@ -566,11 +566,17 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
+
   border-radius: 50%;
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
-
+.modal-btn-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .modal-btn-close:hover {
   background-color: #404bbf;
 }
@@ -672,17 +678,20 @@ img {
 .rules-checkbox:checked + .checkmark {
   fill: #f4f4fd;
 }
-
-.rules-text {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
+.rules-checkbox:checked + span {
+  background-color: #404bbf;
+}
+.icon-rules-checkbox {
+  fill: #f4f4fd;
 }
 
 .rules-link {
   text-decoration: underline;
   color: #4d5ae5;
+}
+.modal-label-rules {
+  display: inline;
+  cursor: pointer;
 }
 .moda-btn {
   margin-bottom: 24px;

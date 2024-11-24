@@ -502,12 +502,18 @@ img {
   width: 264px;
   height: 40px;
 
-  padding: 16px 8px;
+  padding-left: 16px;
   margin-right: 24px;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 
   border: 1px solid #fff;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
 }
 
 .subscribe-input::placeholder {
@@ -515,17 +521,18 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .footer-btn {
   justify-content: center;
   align-items: center;
   height: 40px;
-  gap: 16px;
 }
 
 .icon-tg {
   fill: #fff;
+  margin-left: 16px;
 }
 /* #endregion */
 
@@ -711,11 +718,10 @@ img {
   display: inline;
   cursor: pointer;
 }
-.moda-btn {
-  margin-bottom: 24px;
-}
+
 .modal-form-btn {
   display: block;
   padding: 16px 32px;
+  margin-bottom: 24px;
 }
 /* #endregion */

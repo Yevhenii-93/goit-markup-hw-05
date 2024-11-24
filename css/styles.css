@@ -721,6 +721,7 @@ img {
 
 .modal-form-btn {
   display: block;
+  min-width: 169px;
   padding: 16px 32px;
   margin-bottom: 24px;
 }

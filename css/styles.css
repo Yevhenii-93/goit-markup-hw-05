@@ -698,9 +698,6 @@ img {
 
 .user-privacy:checked + .modal-label > .checkmark {
   background-color: #404bbf;
-}
-
-.user-privacy:checked + .modal-label > .checkmark > .icon-rules-checkbox {
   border: none;
   fill: #f4f4fd;
 }

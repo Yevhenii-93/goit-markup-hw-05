@@ -511,7 +511,9 @@ img {
   display: flex;
   gap: 24px;
 }
-
+.subscribe-label {
+  margin-bottom: 0;
+}
 .footer-input {
 }
 
@@ -520,7 +522,6 @@ img {
   height: 40px;
 
   padding-left: 16px;
-  margin-right: 24px;
 
   font-size: 12px;
   line-height: 2;
@@ -721,6 +722,9 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+
+  margin-right: 8px;
+
   width: 16px;
   height: 16px;
   border-radius: 2px;
